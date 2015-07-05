@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://realtime.mbta.com/developer/api/v2/stopsbylocation?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&lat=42.363114&lon=-71.191223
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - '-1'
+      Server:
+      - Microsoft-IIS/7.5
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Sun, 05 Jul 2015 21:56:35 GMT
+      Content-Length:
+      - '2699'
+    body:
+      encoding: UTF-8
+      string: '{"stop":[{"stop_id":"8181","stop_name":"Watertown St @ Fifth St","parent_station":"","parent_station_name":"","stop_lat":"42.363114","stop_lon":"-71.191223","distance":"0"},{"stop_id":"8176","stop_name":"Watertown
+        St @ Fifth Ave","parent_station":"","parent_station_name":"","stop_lat":"42.362933","stop_lon":"-71.191427","distance":"0.0162406731396914"},{"stop_id":"8175","stop_name":"Watertown
+        St @ Morse St","parent_station":"","parent_station_name":"","stop_lat":"42.362644","stop_lon":"-71.19201","distance":"0.0515512116253376"},{"stop_id":"8182","stop_name":"Watertown
+        St opp Morse St","parent_station":"","parent_station_name":"","stop_lat":"42.362688","stop_lon":"-71.192143","distance":"0.0555802248418331"},{"stop_id":"8180","stop_name":"Watertown
+        St opp Aldrich Rd","parent_station":"","parent_station_name":"","stop_lat":"42.364094","stop_lon":"-71.189091","distance":"0.127980828285217"},{"stop_id":"8174","stop_name":"Watertown
+        St @ Pond St","parent_station":"","parent_station_name":"","stop_lat":"42.361881","stop_lon":"-71.194156","distance":"0.172004327178001"},{"stop_id":"8183","stop_name":"Watertown
+        St opp Pond St","parent_station":"","parent_station_name":"","stop_lat":"42.36191","stop_lon":"-71.194485","distance":"0.186133340001106"},{"stop_id":"8177","stop_name":"Watertown
+        St opp California St","parent_station":"","parent_station_name":"","stop_lat":"42.364349","stop_lon":"-71.187436","distance":"0.211104184389114"},{"stop_id":"8173","stop_name":"Watertown
+        St @ Washburn St","parent_station":"","parent_station_name":"","stop_lat":"42.361668","stop_lon":"-71.195503","distance":"0.240127876400948"},{"stop_id":"8284","stop_name":"Watertown
+        St @ Galen St","parent_station":"","parent_station_name":"","stop_lat":"42.364331","stop_lon":"-71.186377","distance":"0.261084020137787"},{"stop_id":"8179","stop_name":"Watertown
+        St @ Galen St","parent_station":"","parent_station_name":"","stop_lat":"42.364483","stop_lon":"-71.186401","distance":"0.263572841882706"},{"stop_id":"900","stop_name":"Watertown
+        Yard","parent_station":"","parent_station_name":"","stop_lat":"42.364307","stop_lon":"-71.185703","distance":"0.29365000128746"},{"stop_id":"8185","stop_name":"Watertown
+        St opp Pearl St","parent_station":"","parent_station_name":"","stop_lat":"42.361534","stop_lon":"-71.19681","distance":"0.305113464593887"},{"stop_id":"8172","stop_name":"Watertown
+        St @ Pearl St","parent_station":"","parent_station_name":"","stop_lat":"42.361395","stop_lon":"-71.197011","distance":"0.31836062669754"},{"stop_id":"8178","stop_name":"Watertown
+        Sq Terminal","parent_station":"","parent_station_name":"","stop_lat":"42.365436","stop_lon":"-71.185502","distance":"0.333127826452255"}]}'
+    http_version: 
+  recorded_at: Sun, 05 Jul 2015 21:56:36 GMT
+recorded_with: VCR 2.9.3

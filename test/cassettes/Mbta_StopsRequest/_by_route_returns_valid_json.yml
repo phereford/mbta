@@ -1,0 +1,193 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://realtime.mbta.com/developer/api/v2/stopsbyroute?api_key=wX9NwuHnZU2ToO7GmGR9uw&format=json&route=52
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - '-1'
+      Server:
+      - Microsoft-IIS/7.5
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Sun, 05 Jul 2015 21:46:48 GMT
+      Content-Length:
+      - '25042'
+    body:
+      encoding: UTF-8
+      string: '{"direction":[{"direction_id":"0","direction_name":"Outbound","stop":[{"stop_order":"1","stop_id":"900","stop_name":"Watertown
+        Yard","parent_station":"","parent_station_name":"","stop_lat":"42.364307","stop_lon":"-71.185703"},{"stop_order":"2","stop_id":"902","stop_name":"Galen
+        St @ Boyd St","parent_station":"","parent_station_name":"","stop_lat":"42.360008","stop_lon":"-71.185448"},{"stop_order":"3","stop_id":"1900","stop_name":"Centre
+        St @ Pearl St","parent_station":"","parent_station_name":"","stop_lat":"42.358456","stop_lon":"-71.185026"},{"stop_order":"4","stop_id":"903","stop_name":"Washington
+        St @ Bacon St","parent_station":"","parent_station_name":"","stop_lat":"42.357134","stop_lon":"-71.185943"},{"stop_order":"5","stop_id":"8517","stop_name":"Centre
+        St @ Church St","parent_station":"","parent_station_name":"","stop_lat":"42.354287","stop_lon":"-71.186523"},{"stop_order":"6","stop_id":"8518","stop_name":"Centre
+        St @ Newtonville Ave","parent_station":"","parent_station_name":"","stop_lat":"42.351591","stop_lon":"-71.186111"},{"stop_order":"7","stop_id":"8519","stop_name":"Centre
+        St @ Bellevue St","parent_station":"","parent_station_name":"","stop_lat":"42.349826","stop_lon":"-71.18683"},{"stop_order":"8","stop_id":"8520","stop_name":"Centre
+        St @ Lombard St","parent_station":"","parent_station_name":"","stop_lat":"42.348329","stop_lon":"-71.188066"},{"stop_order":"9","stop_id":"8521","stop_name":"Centre
+        St @ Cabot St","parent_station":"","parent_station_name":"","stop_lat":"42.346792","stop_lon":"-71.189408"},{"stop_order":"10","stop_id":"8522","stop_name":"785
+        Centre St","parent_station":"","parent_station_name":"","stop_lat":"42.344219","stop_lon":"-71.190394"},{"stop_order":"11","stop_id":"8523","stop_name":"Centre
+        St @ Cotton St","parent_station":"","parent_station_name":"","stop_lat":"42.341534","stop_lon":"-71.192231"},{"stop_order":"12","stop_id":"8524","stop_name":"Centre
+        St @ Mill St","parent_station":"","parent_station_name":"","stop_lat":"42.340871","stop_lon":"-71.192622"},{"stop_order":"13","stop_id":"8525","stop_name":"Centre
+        St @ Ward St","parent_station":"","parent_station_name":"","stop_lat":"42.338211","stop_lon":"-71.193068"},{"stop_order":"14","stop_id":"8526","stop_name":"Centre
+        St @ Commonwealth Ave","parent_station":"","parent_station_name":"","stop_lat":"42.335852","stop_lon":"-71.193394"},{"stop_order":"15","stop_id":"8527","stop_name":"Centre
+        St @ Bowen St","parent_station":"","parent_station_name":"","stop_lat":"42.333418","stop_lon":"-71.193531"},{"stop_order":"16","stop_id":"8528","stop_name":"Centre
+        St @ Beacon St","parent_station":"","parent_station_name":"","stop_lat":"42.32989","stop_lon":"-71.19488"},{"stop_order":"17","stop_id":"85281","stop_name":"Centre
+        St @ Locksley Rd","parent_station":"","parent_station_name":"","stop_lat":"42.325396","stop_lon":"-71.199221"},{"stop_order":"17","stop_id":"8529","stop_name":"Cypress
+        St @ Braeland Ave","parent_station":"","parent_station_name":"","stop_lat":"42.32805","stop_lon":"-71.194445"},{"stop_order":"18","stop_id":"85282","stop_name":"Centre
+        St @ Cushing St","parent_station":"","parent_station_name":"","stop_lat":"42.322902","stop_lon":"-71.201366"},{"stop_order":"18","stop_id":"8530","stop_name":"Parker
+        St @ Cypress St","parent_station":"","parent_station_name":"","stop_lat":"42.327127","stop_lon":"-71.193994"},{"stop_order":"19","stop_id":"8531","stop_name":"Parker
+        St @ Athelstane Rd","parent_station":"","parent_station_name":"","stop_lat":"42.322501","stop_lon":"-71.194146"},{"stop_order":"19","stop_id":"85290","stop_name":"Centre
+        St @ Hyde St","parent_station":"","parent_station_name":"","stop_lat":"42.321904","stop_lon":"-71.202798"},{"stop_order":"20","stop_id":"8532","stop_name":"Parker
+        St @ Stearns St","parent_station":"","parent_station_name":"","stop_lat":"42.321058","stop_lon":"-71.19426"},{"stop_order":"20","stop_id":"85283","stop_name":"Centre
+        St @ Walnut St","parent_station":"","parent_station_name":"","stop_lat":"42.320548","stop_lon":"-71.205034"},{"stop_order":"21","stop_id":"85284","stop_name":"Winchester
+        St @ Centre St","parent_station":"","parent_station_name":"","stop_lat":"42.318674","stop_lon":"-71.208186"},{"stop_order":"21","stop_id":"8533","stop_name":"Parker
+        St @ Boylston St","parent_station":"","parent_station_name":"","stop_lat":"42.319313","stop_lon":"-71.194398"},{"stop_order":"22","stop_id":"8534","stop_name":"Parker
+        St @ Parker Ave","parent_station":"","parent_station_name":"","stop_lat":"42.317498","stop_lon":"-71.194773"},{"stop_order":"22","stop_id":"85285","stop_name":"Winchester
+        St @ Needham St","parent_station":"","parent_station_name":"","stop_lat":"42.316297","stop_lon":"-71.208888"},{"stop_order":"23","stop_id":"85286","stop_name":"Winchester
+        St @ Rockland St","parent_station":"","parent_station_name":"","stop_lat":"42.312285","stop_lon":"-71.209151"},{"stop_order":"23","stop_id":"8535","stop_name":"Parker
+        St @ Hagen Rd","parent_station":"","parent_station_name":"","stop_lat":"42.316072","stop_lon":"-71.195139"},{"stop_order":"24","stop_id":"8536","stop_name":"Parker
+        St @ Parker Rd","parent_station":"","parent_station_name":"","stop_lat":"42.314087","stop_lon":"-71.195773"},{"stop_order":"24","stop_id":"85287","stop_name":"Winchester
+        St @ Goddard St","parent_station":"","parent_station_name":"","stop_lat":"42.306319","stop_lon":"-71.205736"},{"stop_order":"25","stop_id":"85288","stop_name":"Opp
+        677 Winchester St","parent_station":"","parent_station_name":"","stop_lat":"42.298846","stop_lon":"-71.202023"},{"stop_order":"25","stop_id":"8537","stop_name":"Parker
+        St opp Wheeler Rd","parent_station":"","parent_station_name":"","stop_lat":"42.312077","stop_lon":"-71.196618"},{"stop_order":"26","stop_id":"85371","stop_name":"Wheeler
+        St @ Meadowbrook Rd","parent_station":"","parent_station_name":"","stop_lat":"42.309182","stop_lon":"-71.191156"},{"stop_order":"26","stop_id":"8538","stop_name":"Parker
+        St @ Dedham St","parent_station":"","parent_station_name":"","stop_lat":"42.308429","stop_lon":"-71.19817"},{"stop_order":"26","stop_id":"85289","stop_name":"210
+        Nahanton St","parent_station":"","parent_station_name":"","stop_lat":"42.299595","stop_lon":"-71.196844"},{"stop_order":"27","stop_id":"8539","stop_name":"Dedham
+        St opp Country Club Rd","parent_station":"","parent_station_name":"","stop_lat":"42.306671","stop_lon":"-71.195291"},{"stop_order":"28","stop_id":"8540","stop_name":"Dedham
+        St opp Meadowbrook Rd","parent_station":"","parent_station_name":"","stop_lat":"42.305185","stop_lon":"-71.193871"},{"stop_order":"29","stop_id":"8541","stop_name":"Dedham
+        St opp Greenwood St","parent_station":"","parent_station_name":"","stop_lat":"42.303405","stop_lon":"-71.192013"},{"stop_order":"30","stop_id":"8542","stop_name":"Dedham
+        St opp Arnold Rd","parent_station":"","parent_station_name":"","stop_lat":"42.302802","stop_lon":"-71.191288"},{"stop_order":"31","stop_id":"18542","stop_name":"Dedham
+        St opp Rosalie Rd","parent_station":"","parent_station_name":"","stop_lat":"42.302033","stop_lon":"-71.190013"},{"stop_order":"32","stop_id":"8543","stop_name":"Dedham
+        St @ Nahanton St","parent_station":"","parent_station_name":"","stop_lat":"42.300379","stop_lon":"-71.188317"},{"stop_order":"33","stop_id":"8544","stop_name":"Dedham
+        St @ Carlson Ave","parent_station":"","parent_station_name":"","stop_lat":"42.299063","stop_lon":"-71.186789"},{"stop_order":"34","stop_id":"8545","stop_name":"Dedham
+        St @ Wiswall Rd","parent_station":"","parent_station_name":"","stop_lat":"42.298139","stop_lon":"-71.185086"},{"stop_order":"35","stop_id":"8546","stop_name":"Wiswall
+        Rd @ Indian Ridge Rd","parent_station":"","parent_station_name":"","stop_lat":"42.29739","stop_lon":"-71.185245"},{"stop_order":"36","stop_id":"8547","stop_name":"Wiswall
+        Rd opp McCarthy Rd","parent_station":"","parent_station_name":"","stop_lat":"42.29622","stop_lon":"-71.186748"},{"stop_order":"37","stop_id":"8548","stop_name":"Wiswall
+        Rd @ O Roadway","parent_station":"","parent_station_name":"","stop_lat":"42.294517","stop_lon":"-71.189055"},{"stop_order":"38","stop_id":"8549","stop_name":"Wiswall
+        Rd @ M Roadway","parent_station":"","parent_station_name":"","stop_lat":"42.293124","stop_lon":"-71.190452"},{"stop_order":"39","stop_id":"8550","stop_name":"Wiswall
+        Rd @ Walsh Rd","parent_station":"","parent_station_name":"","stop_lat":"42.291271","stop_lon":"-71.19229"},{"stop_order":"40","stop_id":"8552","stop_name":"Sawmill
+        Brook Pkwy @ Walsh Rd","parent_station":"","parent_station_name":"","stop_lat":"42.289904","stop_lon":"-71.191003"},{"stop_order":"41","stop_id":"8551","stop_name":"Sawmill
+        Brook Pkwy @ Van Roosen Rd","parent_station":"","parent_station_name":"","stop_lat":"42.289985","stop_lon":"-71.189739"},{"stop_order":"42","stop_id":"85511","stop_name":"Sawmill
+        Brook Pkwy @ Spiers Rd","parent_station":"","parent_station_name":"","stop_lat":"42.290209","stop_lon":"-71.188248"},{"stop_order":"43","stop_id":"8553","stop_name":"Sawmill
+        Brook Pkwy @ Keller Path","parent_station":"","parent_station_name":"","stop_lat":"42.29108","stop_lon":"-71.185716"},{"stop_order":"44","stop_id":"8554","stop_name":"Sawmill
+        Brook Pkwy @ McCarthy Rd","parent_station":"","parent_station_name":"","stop_lat":"42.292321","stop_lon":"-71.183769"},{"stop_order":"45","stop_id":"8555","stop_name":"Fredetta
+        Rd @ Sawmill Brook Pkwy","parent_station":"","parent_station_name":"","stop_lat":"42.293475","stop_lon":"-71.182315"},{"stop_order":"46","stop_id":"85551","stop_name":"Fredetta
+        Rd @ Spiers Rd","parent_station":"","parent_station_name":"","stop_lat":"42.292868","stop_lon":"-71.181257"},{"stop_order":"47","stop_id":"8556","stop_name":"Spiers
+        Rd @ Dedham St","parent_station":"","parent_station_name":"","stop_lat":"42.29468","stop_lon":"-71.178978"},{"stop_order":"48","stop_id":"8557","stop_name":"Baker
+        St @ Beth El Cemetery","parent_station":"","parent_station_name":"","stop_lat":"42.291967","stop_lon":"-71.174975"},{"stop_order":"49","stop_id":"85561","stop_name":"Baker
+        St @ Gethsemane Cemetery","parent_station":"","parent_station_name":"","stop_lat":"42.289496","stop_lon":"-71.172652"},{"stop_order":"50","stop_id":"85562","stop_name":"Baker
+        St @ VFW Pkwy","parent_station":"","parent_station_name":"","stop_lat":"42.288448","stop_lon":"-71.171822"},{"stop_order":"51","stop_id":"85563","stop_name":"Baker
+        St @ VFW Pkwy","parent_station":"","parent_station_name":"","stop_lat":"42.287566","stop_lon":"-71.171457"},{"stop_order":"52","stop_id":"85564","stop_name":"Baker
+        St @ Capital St","parent_station":"","parent_station_name":"","stop_lat":"42.285899","stop_lon":"-71.170734"},{"stop_order":"53","stop_id":"85565","stop_name":"Baker
+        St @ Varick St","parent_station":"","parent_station_name":"","stop_lat":"42.283386","stop_lon":"-71.169526"},{"stop_order":"54","stop_id":"85566","stop_name":"Baker
+        St @ Amesbury St","parent_station":"","parent_station_name":"","stop_lat":"42.28175","stop_lon":"-71.168981"},{"stop_order":"55","stop_id":"85567","stop_name":"Baker
+        St @ Cutter Rd","parent_station":"","parent_station_name":"","stop_lat":"42.280438","stop_lon":"-71.168076"},{"stop_order":"56","stop_id":"85568","stop_name":"Baker
+        St @ Dunwell St","parent_station":"","parent_station_name":"","stop_lat":"42.277518","stop_lon":"-71.166993"},{"stop_order":"57","stop_id":"85569","stop_name":"Baker
+        St @ Wycliff Ave","parent_station":"","parent_station_name":"","stop_lat":"42.276201","stop_lon":"-71.167133"},{"stop_order":"58","stop_id":"816","stop_name":"Spring
+        St @ Moville St","parent_station":"","parent_station_name":"","stop_lat":"42.274612","stop_lon":"-71.168808"},{"stop_order":"59","stop_id":"817","stop_name":"Spring
+        St @ VA Hospital","parent_station":"","parent_station_name":"","stop_lat":"42.272991","stop_lon":"-71.170956"},{"stop_order":"60","stop_id":"818","stop_name":"Spring
+        Street opp Charles River Loop","parent_station":"","parent_station_name":"","stop_lat":"42.272032","stop_lon":"-71.172122"},{"stop_order":"61","stop_id":"820","stop_name":"Charles
+        River Loop","parent_station":"","parent_station_name":"","stop_lat":"42.271777","stop_lon":"-71.171963"},{"stop_order":"61","stop_id":"10832","stop_name":"Dedham
+        Mall @ Old Navy","parent_station":"","parent_station_name":"","stop_lat":"42.253872","stop_lon":"-71.16863"},{"stop_order":"62","stop_id":"10833","stop_name":"Dedham
+        Mall @ Stop & Shop","parent_station":"","parent_station_name":"","stop_lat":"42.257893","stop_lon":"-71.167938"}]},{"direction_id":"1","direction_name":"Inbound","stop":[{"stop_order":"1","stop_id":"820","stop_name":"Charles
+        River Loop","parent_station":"","parent_station_name":"","stop_lat":"42.271777","stop_lon":"-71.171963"},{"stop_order":"1","stop_id":"10833","stop_name":"Dedham
+        Mall @ Stop & Shop","parent_station":"","parent_station_name":"","stop_lat":"42.257893","stop_lon":"-71.167938"},{"stop_order":"2","stop_id":"10832","stop_name":"Dedham
+        Mall @ Old Navy","parent_station":"","parent_station_name":"","stop_lat":"42.253872","stop_lon":"-71.16863"},{"stop_order":"3","stop_id":"774","stop_name":"Spring
+        St @ Charles River Loop","parent_station":"","parent_station_name":"","stop_lat":"42.272122","stop_lon":"-71.171854"},{"stop_order":"4","stop_id":"775","stop_name":"Spring
+        St @ Gould St","parent_station":"","parent_station_name":"","stop_lat":"42.272796","stop_lon":"-71.171035"},{"stop_order":"5","stop_id":"776","stop_name":"Spring
+        St @ Cypress St","parent_station":"","parent_station_name":"","stop_lat":"42.274852","stop_lon":"-71.168338"},{"stop_order":"6","stop_id":"8390","stop_name":"Baker
+        St opp Wycliff Ave","parent_station":"","parent_station_name":"","stop_lat":"42.276251","stop_lon":"-71.167"},{"stop_order":"7","stop_id":"8391","stop_name":"Baker
+        St opp Dunwell St","parent_station":"","parent_station_name":"","stop_lat":"42.277573","stop_lon":"-71.166864"},{"stop_order":"8","stop_id":"8392","stop_name":"Baker
+        St @ Cutter Rd","parent_station":"","parent_station_name":"","stop_lat":"42.280413","stop_lon":"-71.167935"},{"stop_order":"9","stop_id":"8393","stop_name":"Baker
+        St @ Rumford Rd","parent_station":"","parent_station_name":"","stop_lat":"42.282123","stop_lon":"-71.168998"},{"stop_order":"10","stop_id":"8394","stop_name":"Baker
+        St @ Varick Rd","parent_station":"","parent_station_name":"","stop_lat":"42.283318","stop_lon":"-71.16938"},{"stop_order":"11","stop_id":"833","stop_name":"Baker
+        St @ Lasell St","parent_station":"","parent_station_name":"","stop_lat":"42.285986","stop_lon":"-71.170648"},{"stop_order":"12","stop_id":"8473","stop_name":"Baker
+        St @ VFW Pkwy","parent_station":"","parent_station_name":"","stop_lat":"42.288533","stop_lon":"-71.171725"},{"stop_order":"13","stop_id":"84731","stop_name":"Baker
+        St opp Gethsemane Cemetery","parent_station":"","parent_station_name":"","stop_lat":"42.289801","stop_lon":"-71.172757"},{"stop_order":"14","stop_id":"8472","stop_name":"Baker
+        St @ Beth El Cemetery","parent_station":"","parent_station_name":"","stop_lat":"42.291917","stop_lon":"-71.174709"},{"stop_order":"15","stop_id":"8474","stop_name":"Spiers
+        Rd @ June Ln","parent_station":"","parent_station_name":"","stop_lat":"42.294441","stop_lon":"-71.179479"},{"stop_order":"16","stop_id":"84741","stop_name":"Fredetta
+        Rd @ Spiers Rd","parent_station":"","parent_station_name":"","stop_lat":"42.292981","stop_lon":"-71.181249"},{"stop_order":"17","stop_id":"8475","stop_name":"Fredetta
+        Rd @ Sawmill Brook Pkwy","parent_station":"","parent_station_name":"","stop_lat":"42.293585","stop_lon":"-71.182307"},{"stop_order":"18","stop_id":"8476","stop_name":"Sawmill
+        Brook Pkwy @ McCarthy Rd","parent_station":"","parent_station_name":"","stop_lat":"42.292343","stop_lon":"-71.183913"},{"stop_order":"19","stop_id":"8477","stop_name":"Sawmill
+        Brook Pkwy @ Keller Path","parent_station":"","parent_station_name":"","stop_lat":"42.291264","stop_lon":"-71.185586"},{"stop_order":"20","stop_id":"8478","stop_name":"Sawmill
+        Brook Pkwy @ Spiers Rd","parent_station":"","parent_station_name":"","stop_lat":"42.290281","stop_lon":"-71.188363"},{"stop_order":"21","stop_id":"8479","stop_name":"Sawmill
+        Brook Pkwy @ Van Roosen Rd","parent_station":"","parent_station_name":"","stop_lat":"42.290073","stop_lon":"-71.189827"},{"stop_order":"22","stop_id":"84791","stop_name":"Sawmill
+        Brook Pkwy @ Walsh Rd","parent_station":"","parent_station_name":"","stop_lat":"42.289995","stop_lon":"-71.191092"},{"stop_order":"23","stop_id":"8480","stop_name":"Wiswall
+        Rd @ Walsh Rd","parent_station":"","parent_station_name":"","stop_lat":"42.291262","stop_lon":"-71.192139"},{"stop_order":"24","stop_id":"8481","stop_name":"Wiswall
+        Rd @ Chinian Path","parent_station":"","parent_station_name":"","stop_lat":"42.292809","stop_lon":"-71.190612"},{"stop_order":"25","stop_id":"8482","stop_name":"Wiswall
+        Rd @ Shumaker Path","parent_station":"","parent_station_name":"","stop_lat":"42.294193","stop_lon":"-71.189216"},{"stop_order":"26","stop_id":"8483","stop_name":"Wiswall
+        Rd @ McCarthy Rd","parent_station":"","parent_station_name":"","stop_lat":"42.296042","stop_lon":"-71.186885"},{"stop_order":"27","stop_id":"8484","stop_name":"Wiswall
+        Rd @ Indian Ridge Rd","parent_station":"","parent_station_name":"","stop_lat":"42.297187","stop_lon":"-71.185198"},{"stop_order":"28","stop_id":"8485","stop_name":"Wiswall
+        Rd @ Dedham St","parent_station":"","parent_station_name":"","stop_lat":"42.298026","stop_lon":"-71.184913"},{"stop_order":"29","stop_id":"8486","stop_name":"Dedham
+        St opp Wiswall Rd","parent_station":"","parent_station_name":"","stop_lat":"42.298252","stop_lon":"-71.185078"},{"stop_order":"30","stop_id":"8487","stop_name":"Dedham
+        St @ Brookline St","parent_station":"","parent_station_name":"","stop_lat":"42.298927","stop_lon":"-71.186344"},{"stop_order":"31","stop_id":"8488","stop_name":"Dedham
+        St opp Nahanton St","parent_station":"","parent_station_name":"","stop_lat":"42.300018","stop_lon":"-71.187864"},{"stop_order":"31","stop_id":"84880","stop_name":"Opp
+        210 Nahanton St","parent_station":"","parent_station_name":"","stop_lat":"42.299664","stop_lon":"-71.196959"},{"stop_order":"32","stop_id":"84881","stop_name":"677
+        Winchester St","parent_station":"","parent_station_name":"","stop_lat":"42.298933","stop_lon":"-71.201934"},{"stop_order":"32","stop_id":"8489","stop_name":"Dedham
+        St @ Rosalie St","parent_station":"","parent_station_name":"","stop_lat":"42.302137","stop_lon":"-71.189971"},{"stop_order":"33","stop_id":"8490","stop_name":"Dedham
+        St @ Arnold St","parent_station":"","parent_station_name":"","stop_lat":"42.302914","stop_lon":"-71.191265"},{"stop_order":"33","stop_id":"84882","stop_name":"Winchester
+        St @ Rachel Rd","parent_station":"","parent_station_name":"","stop_lat":"42.306401","stop_lon":"-71.205629"},{"stop_order":"34","stop_id":"84883","stop_name":"Winchester
+        St @ Rockland St","parent_station":"","parent_station_name":"","stop_lat":"42.31237","stop_lon":"-71.209058"},{"stop_order":"34","stop_id":"8491","stop_name":"Dedham
+        St @ Greenwood St","parent_station":"","parent_station_name":"","stop_lat":"42.303512","stop_lon":"-71.191972"},{"stop_order":"35","stop_id":"8492","stop_name":"Dedham
+        St @ Meadowbrook Rd","parent_station":"","parent_station_name":"","stop_lat":"42.305482","stop_lon":"-71.194033"},{"stop_order":"35","stop_id":"84921","stop_name":"Wheeler
+        St @ Meadowbrook Rd","parent_station":"","parent_station_name":"","stop_lat":"42.309294","stop_lon":"-71.191009"},{"stop_order":"35","stop_id":"84884","stop_name":"Winchester
+        St @ Dedham St","parent_station":"","parent_station_name":"","stop_lat":"42.316351","stop_lon":"-71.208755"},{"stop_order":"36","stop_id":"84885","stop_name":"Winchester
+        St @ Centre St","parent_station":"","parent_station_name":"","stop_lat":"42.318652","stop_lon":"-71.208042"},{"stop_order":"36","stop_id":"8493","stop_name":"Dedham
+        St @ Country Club Rd","parent_station":"","parent_station_name":"","stop_lat":"42.306772","stop_lon":"-71.195235"},{"stop_order":"37","stop_id":"8494","stop_name":"Parker
+        St @ Dedham St","parent_station":"","parent_station_name":"","stop_lat":"42.308445","stop_lon":"-71.198026"},{"stop_order":"37","stop_id":"84886","stop_name":"Centre
+        St @ Walnut St","parent_station":"","parent_station_name":"","stop_lat":"42.320359","stop_lon":"-71.205142"},{"stop_order":"38","stop_id":"84887","stop_name":"Centre
+        St @ Clark St","parent_station":"","parent_station_name":"","stop_lat":"42.323785","stop_lon":"-71.200386"},{"stop_order":"38","stop_id":"8495","stop_name":"Parker
+        St @ Wheeler Rd","parent_station":"","parent_station_name":"","stop_lat":"42.312107","stop_lon":"-71.196478"},{"stop_order":"39","stop_id":"8496","stop_name":"Parker
+        St @ Roosevelt Rd","parent_station":"","parent_station_name":"","stop_lat":"42.313886","stop_lon":"-71.19573"},{"stop_order":"39","stop_id":"84888","stop_name":"Centre
+        St @ Locksley Rd","parent_station":"","parent_station_name":"","stop_lat":"42.325196","stop_lon":"-71.19927"},{"stop_order":"40","stop_id":"8497","stop_name":"Parker
+        St @ Hagen Rd","parent_station":"","parent_station_name":"","stop_lat":"42.316115","stop_lon":"-71.194994"},{"stop_order":"41","stop_id":"8498","stop_name":"288
+        Parker St opp Parker Ave","parent_station":"","parent_station_name":"","stop_lat":"42.3173","stop_lon":"-71.194689"},{"stop_order":"42","stop_id":"8499","stop_name":"Parker
+        St @ Boylston St","parent_station":"","parent_station_name":"","stop_lat":"42.319359","stop_lon":"-71.194258"},{"stop_order":"43","stop_id":"8500","stop_name":"200
+        Parker St opp Stearns St","parent_station":"","parent_station_name":"","stop_lat":"42.320874","stop_lon":"-71.194147"},{"stop_order":"44","stop_id":"8501","stop_name":"Parker
+        St @ Glenwood Ave","parent_station":"","parent_station_name":"","stop_lat":"42.322701","stop_lon":"-71.194001"},{"stop_order":"45","stop_id":"8502","stop_name":"Parker
+        St @ Cypress St","parent_station":"","parent_station_name":"","stop_lat":"42.326627","stop_lon":"-71.193834"},{"stop_order":"46","stop_id":"8503","stop_name":"Cypress
+        St @ Braeland Ave","parent_station":"","parent_station_name":"","stop_lat":"42.328146","stop_lon":"-71.194359"},{"stop_order":"47","stop_id":"8504","stop_name":"Centre
+        St @ Beacon St","parent_station":"","parent_station_name":"","stop_lat":"42.330172","stop_lon":"-71.194693"},{"stop_order":"48","stop_id":"8505","stop_name":"Centre
+        St @ Langley Rd","parent_station":"","parent_station_name":"","stop_lat":"42.331091","stop_lon":"-71.194615"},{"stop_order":"49","stop_id":"8506","stop_name":"Centre
+        St @ Gibbs St","parent_station":"","parent_station_name":"","stop_lat":"42.333467","stop_lon":"-71.193394"},{"stop_order":"50","stop_id":"8507","stop_name":"Centre
+        St @ Commonwealth Ave","parent_station":"","parent_station_name":"","stop_lat":"42.335904","stop_lon":"-71.193264"},{"stop_order":"51","stop_id":"8508","stop_name":"Centre
+        St @ Ward St","parent_station":"","parent_station_name":"","stop_lat":"42.338019","stop_lon":"-71.192969"},{"stop_order":"52","stop_id":"8509","stop_name":"Centre
+        St @ Alderwood Rd","parent_station":"","parent_station_name":"","stop_lat":"42.340465","stop_lon":"-71.192584"},{"stop_order":"53","stop_id":"8510","stop_name":"Centre
+        St @ Cotton St","parent_station":"","parent_station_name":"","stop_lat":"42.341329","stop_lon":"-71.192254"},{"stop_order":"54","stop_id":"8511","stop_name":"790
+        Centre St","parent_station":"","parent_station_name":"","stop_lat":"42.343966","stop_lon":"-71.190373"},{"stop_order":"55","stop_id":"8512","stop_name":"Centre
+        St @ Sargent St","parent_station":"","parent_station_name":"","stop_lat":"42.346924","stop_lon":"-71.189175"},{"stop_order":"56","stop_id":"8513","stop_name":"Centre
+        St @ George St","parent_station":"","parent_station_name":"","stop_lat":"42.348788","stop_lon":"-71.187627"},{"stop_order":"57","stop_id":"8514","stop_name":"Centre
+        St @ Hyde Ave","parent_station":"","parent_station_name":"","stop_lat":"42.349623","stop_lon":"-71.186879"},{"stop_order":"58","stop_id":"8515","stop_name":"Centre
+        St @ Newtonville Ave","parent_station":"","parent_station_name":"","stop_lat":"42.35141","stop_lon":"-71.185986"},{"stop_order":"59","stop_id":"8516","stop_name":"Centre
+        St @ Church St","parent_station":"","parent_station_name":"","stop_lat":"42.354336","stop_lon":"-71.186386"},{"stop_order":"60","stop_id":"903","stop_name":"Washington
+        St @ Bacon St","parent_station":"","parent_station_name":"","stop_lat":"42.357134","stop_lon":"-71.185943"},{"stop_order":"60","stop_id":"9031","stop_name":"400
+        Centre St","parent_station":"","parent_station_name":"","stop_lat":"42.356158","stop_lon":"-71.184249"},{"stop_order":"61","stop_id":"988","stop_name":"Centre
+        St @ Jefferson St","parent_station":"","parent_station_name":"","stop_lat":"42.35804","stop_lon":"-71.184642"},{"stop_order":"62","stop_id":"989","stop_name":"Galen
+        St @ Maple St","parent_station":"","parent_station_name":"","stop_lat":"42.360079","stop_lon":"-71.185332"},{"stop_order":"63","stop_id":"900","stop_name":"Watertown
+        Yard","parent_station":"","parent_station_name":"","stop_lat":"42.364307","stop_lon":"-71.185703"}]}]}'
+    http_version: 
+  recorded_at: Sun, 05 Jul 2015 21:46:48 GMT
+recorded_with: VCR 2.9.3
