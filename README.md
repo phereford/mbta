@@ -64,8 +64,9 @@ options_hash can take, but peeking at the documentation of
 their [endpoint](http://realtime.mbta.com/Portal/Content/Documents/MBTA-realtime_APIDocumentation_v2_0_1_2014-09-08.pdf) may help guide you.
 
 ## Left ToDo
-1) Encapsulate errors from the various endpoints into real Error objects
-2) Instead of just returning raw json, consider returning Ruby objects. Maybe a boolean staging return json or ruby objects.
+
+1) Encapsulate errors from the various endpoints into real Error objects  
+2) Instead of just returning raw json, consider returning Ruby objects. Maybe a boolean stating return json or ruby objects.  
 3) Build out ruby models with attrs for the various pieces of the json response.
 
 ## Contributing
