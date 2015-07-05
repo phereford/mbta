@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'faraday_middleware', '~> 0.9.1'
 
   spec.add_development_dependency 'bundler', '~> 1.7'
+  spec.add_development_dependency 'coveralls'
   spec.add_development_dependency 'minitest', '~> 5.7.0'
   spec.add_development_dependency 'minitest-vcr', '~> 1.3.0'
   spec.add_development_dependency 'pry-byebug', '~> 3.1.0'

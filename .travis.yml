@@ -1,7 +1,9 @@
 language: ruby
 rvm:
-  - 2.0.0
-  - 2.1.0
-  - 2.2.0
-  - ruby-head
-  - jruby-head
+- 2.0.0
+- 2.1.0
+- 2.2.0
+- ruby-head
+env:
+  global:
+    secure: eShS78/+FodvtbXB5a8v03zh3d636k8TlWAZho7/l6JEkxUMGahqqPTF/gXc9uR+4WrwLHpSVLH6xJ9LjAXeuw32Vl5JyQDImPqF/Wq6sCVTNXfFvBIF2XwgeePKWSe7gg7HLrK0mr/gru04epWVufeFBTPTuyz5Ndz+JArWHqYcF5WXUsJ56AlY6eyB+sm07xavzLucy5phEoBVWCvWlGCFhO17OBajY8OIEIvwNjL3s3+oz3+t9jQwBgoTQ356wn5eDLNof2HwzlvcXJxBzL+9N6zw0pVPxIgJ8umMe1RnPyo0yBjejuTI/xV6kD9pBMorDCI4g1NCe7fU4l/sAgVBofq/UlEsf9dDrUH19NVcOLz+qNDjOoXBgic0ZxKtKy8oYiUDo6QNTS8G6u8BRLH2L9nmwA1HwAg64pmF+ffyQspheWacbOaLLy0aS/ppeCoqHAgcDLhysRxiZtqRsap3Ezn0FcPYhZPRcujt/ABwgop+vzIxauixMYpURww89sxG4CD9jXVujXq8PiJBCv7ggNc4710ZzhRW8QE6GIufP4aYZDvD/1AY/tXB7Q/FZRCByOhbXYyTwkSdxg+YdrisbeyM7qVvWNyZXTkWNahDhAMD7hhJaZL8NpDqh/DdNFDa/kMrTRc81olVNk2PUYQmOmUPFCS+zq2LdcSAFHo=

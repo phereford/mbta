@@ -6,6 +6,9 @@ require 'minitest/pride'
 require 'vcr'
 require 'minitest-vcr'
 require 'webmock'
+require 'coveralls'
+
+Coveralls.wear!
 
 VCR.configure do |c|
   c.allow_http_connections_when_no_cassette = true
