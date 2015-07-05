@@ -4,13 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'mbta/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'mbta'
+  spec.name          = 'mbta-rt'
   spec.version       = Mbta::VERSION
   spec.authors       = ['phereford']
   spec.email         = ['phereford@gmail.com']
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ''
+  spec.summary       = %q{Ruby API Wrapper around MBTA realtime v2 api.}
+  spec.homepage      = 'http://www.github.com/phereford/mbta'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
