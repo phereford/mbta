@@ -1,4 +1,6 @@
 # Mbta
+[![Build Status](https://travis-ci.org/phereford/mbta.svg)](https://travis-ci.org/phereford/mbta)
+
 The mbta released a realtime api about a year ago. I have some
 interest in building a hyperlocal app around public transportation
 and have this created this api wrapper.
