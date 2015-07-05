@@ -24,7 +24,7 @@ describe 'Mbta::VehiclesRequest' do
 
   describe '.by_trip' do
     it 'returns valid json with no errors' do
-      json = JSON.parse(Mbta::VehiclesRequest.by_trip(27504087))
+      json = JSON.parse(Mbta::VehiclesRequest.by_trip(27504084))
       assert_nil(json['error'])
       assert_kind_of(Hash, json)
     end

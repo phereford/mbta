@@ -33,7 +33,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Sun, 05 Jul 2015 22:37:46 GMT
+      - Sun, 05 Jul 2015 22:51:35 GMT
       Content-Length:
       - '2699'
     body:
@@ -54,5 +54,5 @@ http_interactions:
         St @ Pearl St","parent_station":"","parent_station_name":"","stop_lat":"42.361395","stop_lon":"-71.197011","distance":"0.31836062669754"},{"stop_id":"8178","stop_name":"Watertown
         Sq Terminal","parent_station":"","parent_station_name":"","stop_lat":"42.365436","stop_lon":"-71.185502","distance":"0.333127826452255"}]}'
     http_version: 
-  recorded_at: Sun, 05 Jul 2015 22:37:47 GMT
+  recorded_at: Sun, 05 Jul 2015 22:51:36 GMT
 recorded_with: VCR 2.9.3
