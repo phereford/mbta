@@ -33,7 +33,7 @@ http_interactions:
       X-Powered-By:
       - ASP.NET
       Date:
-      - Sun, 05 Jul 2015 21:56:35 GMT
+      - Sun, 05 Jul 2015 22:37:45 GMT
       Content-Length:
       - '25042'
     body:
@@ -189,5 +189,5 @@ http_interactions:
         St @ Maple St","parent_station":"","parent_station_name":"","stop_lat":"42.360079","stop_lon":"-71.185332"},{"stop_order":"63","stop_id":"900","stop_name":"Watertown
         Yard","parent_station":"","parent_station_name":"","stop_lat":"42.364307","stop_lon":"-71.185703"}]}]}'
     http_version: 
-  recorded_at: Sun, 05 Jul 2015 21:56:35 GMT
+  recorded_at: Sun, 05 Jul 2015 22:37:46 GMT
 recorded_with: VCR 2.9.3

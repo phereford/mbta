@@ -1,4 +1,4 @@
-require 'test/test_helper'
+require 'test_helper'
 
 describe 'Mbta::VehiclesRequest' do
   describe '.by_route' do
@@ -12,7 +12,7 @@ describe 'Mbta::VehiclesRequest' do
     it 'returns json with errors about no data' do
       json = JSON.parse(Mbta::VehiclesRequest.by_route('asd'))
 
-      assert_equal(json['error']['message'], 'No data for route asd')
+      assert_equal(json['error']['message'], 'No data for  route asd')
     end
 
     it 'returns json with errors about missing required param' do
@@ -24,7 +24,7 @@ describe 'Mbta::VehiclesRequest' do
 
   describe '.by_trip' do
     it 'returns valid json with no errors' do
-      json = JSON.parse(Mbta::VehiclesRequest.by_trip(27504131))
+      json = JSON.parse(Mbta::VehiclesRequest.by_trip(27504087))
       assert_nil(json['error'])
       assert_kind_of(Hash, json)
     end

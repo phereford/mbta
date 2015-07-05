@@ -1,4 +1,4 @@
-require 'test/test_helper'
+require 'test_helper'
 
 describe 'Mbta::StopsRequest', :vcr do
   describe '.by_route' do
