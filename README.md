@@ -1,6 +1,7 @@
 # Mbta
 [![Build Status](https://travis-ci.org/phereford/mbta.svg)](https://travis-ci.org/phereford/mbta)
 [![Coverage Status](https://coveralls.io/repos/phereford/mbta/badge.svg)](https://coveralls.io/r/phereford/mbta)
+[![Gem Version](https://badge.fury.io/rb/mbta-rt.svg)](http://badge.fury.io/rb/mbta-rt)
 
 The mbta released a realtime api about a year ago. I have some
 interest in building a hyperlocal app around public transportation
